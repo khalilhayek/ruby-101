@@ -24,5 +24,8 @@ class ToH
     end
 end
 
-toh = ToH.new 8
-toh.play
+
+if __FILE__ == $PROGRAM_NAME
+    toh = ToH.new 8
+    toh.play
+end
