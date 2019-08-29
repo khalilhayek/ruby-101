@@ -4,13 +4,14 @@ class ToH
         height.downto(1) { |i| @source << i }
     end
 
-    def show
-        p @source, @target, @aux, "------------"
-    end
-
     def play
         move @height, @source, @target, @aux
         show
+    end
+
+private
+    def show
+        p @source, @target, @aux, "------------"
     end
 
     def move n, src, tgt, aux
