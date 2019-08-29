@@ -9,17 +9,21 @@ class Freq
 	end
 	
 	def show
-		p @frequencies.sort_by { |letter,freq| -freq }
+		p @frequencies.sort_by { |_,freq| -freq }
+	end
+	
+	def run
+		puts 'Type some text:'
+		while ( input = gets.chomp ) =~ /^q$/
+			process input
+			puts 'Type some text:'
+		end
+		show
 	end
 end
 
 if __FILE__ == $PROGRAM_NAME
 	freqs = Freq.new
-	input = gets.chomp
-	while input !~ /^q$/
-		freqs.process input
-		input = gets.chomp
-	end
-	freqs.show
+	freqs.run
 end
 	
