@@ -1,0 +1,35 @@
+Computer programming is a mental exercise.
+Before you touch the keyboard to start writing a program, you have to 
+solve the problem in your head:
+
+Identify the problem that you need to solve. 
+Identify the relevant information (data) that you are given,
+and the unknowns that you need to compute. 
+Figure out a method to solve the problem, an algorithm.
+
+Your algorithm will consist of different steps.
+Some steps include making decisions: 
+	if some condition is true, then do some action
+	but if another condition is true, then do another action.
+Some steps include repetition:
+	either stepping through the elements of a list,
+	or repeating a process until some condition is met.
+Some steps involve transforming data, either by arithmetic
+operations, text manipulation, computations, etc.
+
+Once you have the algorithm, you can start writing it
+in a computer langauge. 
+Or you can implement it with pencil and paper.
+
+As you develop the algorithm and then the program, think about
+your data and the most suitable way to represent it.
+Your data may be:
+	integer numbers,
+	real numbers,
+	words and sentences,
+	logical values (true, false),
+	dictionaries (name: value, name: value, ...),
+	or lists of any of the above.
+
+Understanding your data and representing it correctly helps
+keep the algorithm simple and legible. 

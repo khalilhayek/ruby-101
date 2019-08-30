@@ -1,0 +1,56 @@
+# This is a comment. 
+# Comments start with a #
+# Everything from the # to the end of the line is a comment.
+
+These are different kinds of "constants". 
+Integers:
+3
+0
+-2
+
+Real numbers, also called floating number, floats, decimals:
+5.5
+1.0
+-100.4
+0.23
+
+Characters:
+'c'
+"D"
+" "
+
+Strings: a string is a sequence of characters:
+"hello there!"
+'Bye now!'
+
+Characters and strings must be between quotes or double quotes.
+But:
+"This is not a string'
+Spot the problem?
+
+Logical (Boolean) constants:
+true
+false
+
+The nothing constant:
+nil
+
+Now let's look at lists:
+
+This is an array of integers:
+[1,2,3,4,5]
+
+This is an array of Logical values:
+[true, true, false, true, false]
+
+This is an array of strings:
+['Bunbuns', 'Rusty', 'Datschie', 'Affe']
+
+This is an array of different things:
+['Bunbuns', 100, 'Affe', false, 10.5123]
+
+This is the range of numbers from 1 to 5:
+(1..5)
+
+This is the range of characters from 'e' to 'k':
+('e'..'k')

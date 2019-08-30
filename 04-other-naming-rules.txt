@@ -1,0 +1,18 @@
+OK, now you know about values, variables, and constants, and you know how to form variable names and constant names.
+
+Variable names:
+name, bunnys_name, bunnysName, number_1_food, foodNumber1
+
+Constant names:
+COLOR_ORANGE
+NUM_1_FOOD
+FOOD1
+
+Later on you will find modules and classes. Their names must start with a capital letter, followed by small letters, numbers or underscores.
+The following are common class names:
+Object
+String
+Array
+Exception
+
+Don't worry about these for now. We'll get to them later.

@@ -1,0 +1,17 @@
+As an example, consider of the game of Tic-Tac-Toe.
+
+Setup:
+You have a game board with 9 cells arranged in 3 rows and 3 columns.
+All the cells are blank.
+One player has symbol X, the other has symbol O.
+First player is Player X.
+
+Repeat this:
+1. Display the board.
+2. Player marks one empty cell.
+3. If any row or column or diagonal contains all this player's mark, 
+   this player wins, the game ends.
+4. If all cells are marked by X or O, it's a tie, the game ends.
+5. The next round is for the other player.
+
+
