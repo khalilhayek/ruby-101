@@ -7,9 +7,13 @@
 temps = [ 22, 25, 26, 23, 24, 28, 30, 32, 31, 26 ]
 wins = [ true, true, false, false, true, false, true ]
 
-# Use a hashe for records, as we've seen in the previous lesson.
+# Use a hash for records, as we've seen in the previous lesson.
+foods = {
+	'Bunbuns' => 'carrots',
+	'The GOAT' => 'everything'
+}
 
-# Also use hashes if you're keeping track of wins and losses for specific games.
+# Also use a hash if you're keeping track of wins and losses for specific soccer matches.
 wins = { 
 	'OTFC' => false, 
 	'Ottawa Internationals' => true, 
@@ -17,6 +21,13 @@ wins = {
 	'Seaway Valley' => true
 }
 # Then you can check for wins, for example:
+for opponent in wins.keys
+	if wins[opponent] == true
+		puts "We won against #{opponent}!"
+	end
+end
 
+# Or, using Ruby's hash methods:
+wins.each_pair { |opponent,win| puts "We won against #{opponent}!" if win }
 
 
