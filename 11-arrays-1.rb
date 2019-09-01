@@ -10,7 +10,7 @@ my_array = []
 # This is an array that contains 2 names:
 my_pets = ['Bunbuns', 'The GOAT']
 
-# We can elements to this array:
+# We can add elements to this array using the array method .append:
 my_pets.append 'Affe'
 my_pets.append 'Camel'
 my_pets.append 'Bisou'
