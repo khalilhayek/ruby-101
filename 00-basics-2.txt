@@ -1,14 +1,23 @@
-As an example, consider of the game of Tic-Tac-Toe.
+For example, if you want to write a program for the game Tic-Tac-Toe,
+you'll have to first analyze how the game is played, break that down
+into steps.
 
-Setup:
-You have a game board with 9 cells arranged in 3 rows and 3 columns.
-All the cells are blank.
+First, the setup rules:
+The game board has 9 cells arranged in 3 rows and 3 columns.
+All the cells are empty at the start.
 One player has symbol X, the other has symbol O.
-First player is Player X.
+One player goes first, say player X.
 
+Second, the rules:
+A player can only place his symbol in an empty cell.
+A player wins if he can place his symbol in 3 cells in a row, 
+in a column, or in a diagonal.
+If all the cells are taken and there is no winner, the game is tied.
+
+Third, the steps:
 Repeat this:
 1. Display the board.
-2. Player marks one empty cell.
+2. A player marks one empty cell.
 3. If any row or column or diagonal contains all this player's mark, 
    this player wins, the game ends.
 4. If all cells are marked by X or O, it's a tie, the game ends.
