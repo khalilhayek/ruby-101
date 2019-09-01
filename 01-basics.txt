@@ -1,9 +1,11 @@
-Before we start any programming with Ruby, we need to learn some basics of the language, its Syntax.
+Before we start any programming with Ruby, we need to learn some basics of the language.
 
 # A program can contain comments. 
 # This is a comment. 
 # Comments start with a #
 # Everything from the # to the end of the line is a comment.
+
+Next we'll look at different types of data, called "data types":
 
 These are different kinds of "constants". 
 Integers:
