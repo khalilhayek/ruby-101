@@ -20,7 +20,36 @@ name_food = {
 	'Bisou' => 'you'
 }
 
-# Often, you would use a hash element as a record:
+# Each entry in a hash consists of a key and a value.
+# In the examples above, 'Bunbuns' is a key, and 'carrots' is a value.
+# To print all the keys:
+puts name_food.keys
+
+# To print all the values:
+puts name_food.values
+
+# To print the value of Affe's food:
+puts name_food['Affe']
+
+# To print the key and value of each element:
+# Method 1: get a list of all the keys, then use each 
+# key to get its associated value.
+for k in pet2.keys
+	v = pet2[k]
+	puts "#{k} is #{v}"
+end
+
+# Method 2: Use a special ruby method called .each_pair
+# which gets the key and value of each entry.
+pet2.each_pair { |k,v| puts "#{k} is #{v}" }
+
+
+
+
+
+
+# Often, you would use a hash element as a record, to record multiple bits of 
+# information about the same object, person, or pet:
 pet1 = {
 	'name' => 'Bunbuns',
 	'age' => 2,
@@ -34,19 +63,6 @@ pet2 = {
 	'nice' => true,
 	'food' => 'everything'
 }
-
-# Each hash element consists of a 'key' and a 'value'.
-puts pet2.keys
-puts pet2.values
-# To print the key and value of each element:
-# Method 1:
-pet2.each_pair { |k,v| puts "#{k} is #{v}" }
-# Method 2:
-for k in pet2.keys
-	v = pet2[k]
-	puts "#{k} is #{v}"
-end
-
 
 
 # And in real applications, you would have a list of records, 
