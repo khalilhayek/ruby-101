@@ -1,3 +1,6 @@
+Before we start any programming with Ruby, we need to learn some basics of the language, its Syntax.
+
+# A program can contain comments. 
 # This is a comment. 
 # Comments start with a #
 # Everything from the # to the end of the line is a comment.
@@ -8,7 +11,7 @@ Integers:
 0
 -2
 
-Real numbers, also called floating number, floats, decimals:
+Real numbers, also called floating numbers, floats, decimals:
 5.5
 1.0
 -100.4
@@ -35,7 +38,7 @@ false
 The nothing constant:
 nil
 
-Now let's look at lists:
+We can also have lists:
 
 This is an array of integers:
 [1,2,3,4,5]
